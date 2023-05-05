@@ -1025,7 +1025,7 @@ For example using ``map``:
 
     >>> from proj.tasks import add
 
-    >>> ~xsum.map([range(10), range(100)])
+    >>> ~xsum.map([list(range(10)), list(range(100))])
     [45, 4950]
 
 is the same as having a task doing:
